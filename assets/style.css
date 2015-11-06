@@ -8,14 +8,18 @@ body {
 }
 
 div.input {
-    width: 36%;
-    margin-left: 16px;
+    width         : 36%;
+    margin-left   : 16px;
+    display       : inline-block;
+    vertical-align: top;
 }
 
-label.text {
+h4.text, h4.vcard, h4.sms, h4.email, h4.geo {
     margin-top: 18px !important;
 }
 
-button.text {
-    margin-top: 8px !important;
+div.qrcode {
+    display: inline-block;
+    width  : 50%;
+    margin : 25px 0px 0px 30px;
 }
