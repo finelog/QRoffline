@@ -6,11 +6,11 @@ chrome.app.runtime.onLaunched.addListener(function()
         bounds: 
         {
             width: 600,
-            height: 480,
+            height: 360,
             left: 100,
             top: 60
         },
         minWidth: 600,
-        minHeight: 480
+        minHeight: 360
     });
 });

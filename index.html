@@ -3,16 +3,49 @@
 <head>
     <meta charset="utf-8">
     <link rel="favicon" type="image/png" href="images/16.png"></head>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <script src="assets/jquery.min.js"></script>
     <script src="assets/qrcode.min.js"></script>
-    <script src="assets/actions.js"></script>
+    <script src="assets/main.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>QRoffline - Generate QR code offline</title>
 </head>
 
 <body>
-    <div>
-
+    <div class="tabbable">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab1" data-toggle="tab">Text</a></li>
+            <li><a href="#tab2" data-toggle="tab">VCard</a></li>
+            <li><a href="#tab3" data-toggle="tab">SMS</a></li>
+            <li><a href="#tab4" data-toggle="tab">Email</a></li>
+            <li><a href="#tab5" data-toggle="tab">Geo</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+                <div  class="input">
+                    <h4><label class="text" for="text">Text/Link:</label></h4>
+                    <input id="text" class="form-control" type="text" placeholder="input text or link">
+                    <button class="btn btn-default text">Generate QR</button>
+                </div>
+                <div class="qrcode">
+                </div>
+            </div>
+            <div class="tab-pane" id="tab2">
+                <p>Howdy, I'm in Section 2.</p>
+            </div>
+            <div class="tab-pane" id="tab3">
+               <p>Howdy, I'm in Section 2.</p>
+            </div>
+            <div class="tab-pane" id="tab4">
+                <p>Howdy, I'm in Section 2.</p>
+            </div>
+            <div class="tab-pane" id="tab5">
+                <p>Howdy, I'm in Section 2.</p>
+            </div>
+        </div>
     </div>
+    <!--
+    -->
 </body>
 </html>

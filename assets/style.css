@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    width : 600px;
+    height: 360px;
+    margin: 0 auto;
+    border: black 1px solid;
+}
+
+div.input {
+    width: 36%;
+    margin-left: 16px;
+}
+
+label.text {
+    margin-top: 18px !important;
+}
+
+button.text {
+    margin-top: 8px !important;
+}
