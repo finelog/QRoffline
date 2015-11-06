@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <link rel="favicon" type="image/png" href="images/16.png"></head>
     <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
     <script src="assets/qrcode.min.js"></script>
     <script src="assets/main.js"></script>
-    <script src="assets/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>QRoffline - Generate QR code offline</title>
@@ -15,63 +15,63 @@
 <body>
     <div class="tabbable">
         <ul class="nav nav-tabs">
-            <li class="active"><a id="atext" href="#tab1" data-toggle="tab">Text</a></li>
-            <li><a id="avcard" href="#tab2" data-toggle="tab">VCard</a></li>
-            <li><a id="asms"   href="#tab3" data-toggle="tab">SMS</a></li>
-            <li><a id="amail"  href="#tab4" data-toggle="tab">Email</a></li>
-            <li><a id="ageo"   href="#tab5" data-toggle="tab">Geo</a></li>
+            <li class="active"><a href="#tab1" data-toggle="tab">Text</a></li>
+            <li><a href="#tab2" data-toggle="tab">VCard</a></li>
+            <li><a href="#tab3" data-toggle="tab">SMS</a></li>
+            <li><a href="#tab4" data-toggle="tab">Email</a></li>
+            <li><a href="#tab5" data-toggle="tab">Geo</a></li>
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="tab1">
                 <div class="input">
                     <h4 class="text">Text/Link:</h4>
-                    <p> <input id="tab1focus" class="form-control" type="text" placeholder="input text or link"> </p>
+                    <p> <input id="load2focus" class="form-control" type="text" placeholder="input text or link"> </p>
                     <button id="gentext" class="btn btn-default">Generate QR</button>
                 </div>
-                <div class="qrcode">
+                <div id="qrtext" class="qrcode">
                 </div>
             </div>
             <div class="tab-pane" id="tab2">
                 <div class="input">
                     <h4 class="vcard">VCard:</h4>
-                    <p> <input id="tab2focus" type="text"  class="form-control" placeholder="Name"> </p>
+                    <p> <input type="text"  class="form-control" placeholder="Name"> </p>
 					<p> <input type="text"  class="form-control" placeholder="Last Name"> </p>
 					<p> <input type="tel"   class="form-control" placeholder="Mobile phone"> </p>
 					<p> <input type="email" class="form-control" placeholder="E-mail"> </p>
                     <button id="genvcard" class="btn btn-default">Generate QR</button>
                 </div>
-                <div class="qrcode">
+                <div id="qrvcard" class="qrcode">
                 </div>
             </div>
             <div class="tab-pane" id="tab3">
                 <div class="input">
                     <h4 class="sms">SMS:</h4>
-					<p> <input id="tab1focus" type="tel" class="form-control" placeholder="Number"> </p>
+					<p> <input type="tel" class="form-control" placeholder="Number"> </p>
 					<p> <input type="text" class="form-control" placeholder="Message"> </p>
                     <button id="gensms" class="btn btn-default">Generate QR</button>
                 </div>
-                <div class="qrcode">
+                <div id="qrsms" class="qrcode">
                 </div>
             </div>
             <div class="tab-pane" id="tab4">
                 <div class="input">
                     <h4 class="email">Email:</h4>
-					<p> <input id="tab4focus" type="email" class="form-control" placeholder="Email"> </p>
+					<p> <input type="email" class="form-control" placeholder="Email"> </p>
 					<p> <input type="text" class="form-control" placeholder="Subject"> </p>
 					<p> <input type="text" class="form-control" placeholder="Message"> </p>
                     <button id="genemail" class="btn btn-default">Generate QR</button>
                 </div>
-                <div class="qrcode">
+                <div id="qremail" class="qrcode">
                 </div>
             </div>
             <div class="tab-pane" id="tab5">
                 <div class="input">
-                    <h4 class="geo">GEO:</h4>
-                    <p> <input id="tab5focus" type="tel" id="qrGLat" class="form-control" placeholder="Latitude"> </p>
+                    <h4 class="geo">Geo:</h4>
+                    <p> <input type="tel" id="qrGLat" class="form-control" placeholder="Latitude"> </p>
 					<p> <input type="text" id="qrGLon" class="form-control" placeholder="Longitude"> </p>
                     <button id="gengeo" class="btn btn-default">Generate QR</button>
                 </div>
-                <div class="qrcode">
+                <div id="qrgeo" class="qrcode">
                 </div>
             </div>
         </div>
