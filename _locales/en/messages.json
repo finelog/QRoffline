@@ -1,0 +1,59 @@
+{
+   "appname": {
+      "message": "QRoffline - Generate QR code offline"
+   },
+   "genbtn": {
+      "message": "Generate QR"
+   },
+   "Text": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "VCard": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "SMS": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "Email": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "Geo": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+   "": {
+      "message": ""
+   },
+}

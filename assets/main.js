@@ -13,6 +13,17 @@ window.onload = function() {
     var qremail = new QRCode(document.getElementById("qremail"), { width:250, height:250 });
     var qrgeo   = new QRCode(document.getElementById("qrgeo"),   { width:250, height:250 });
 
+    //localization
+    var isApp = false;
+    if(location.href.search(/hrome-extension:\/\//i))
+    {
+        isApp = true;
+    }
+    if(isApp)
+    {
+        chrome.i18n.getMessage("messagename");
+    }
+
     //text input ti focus
     var load2focus = document.getElementById("load2focus");
     window.addEventListener("load", load2focus.focus(), false);

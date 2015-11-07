@@ -1,0 +1,77 @@
+{
+   "appdescription": {
+      "message": "FastQR allows you to create and save QR codes in PNG format without needing an internet connection."
+   },
+   "appname": {
+      "message": "FastQR - Generate QR Code offline"
+   },
+   "generateBtn": {
+      "message": "Generate"
+   },
+   "generateemail": {
+      "message": "Generate E-mail QR Code"
+   },
+   "generategeo": {
+      "message": "Generate GEO QR Code"
+   },
+   "generatelink": {
+      "message": "Generate Text/Link QR Code"
+   },
+   "generatesms": {
+      "message": "Generate SMS QR Code"
+   },
+   "generatevcard": {
+      "message": "Generate vCard QR Code"
+   },
+   "qrEMessage": {
+      "message": "Message"
+   },
+   "qrESubject": {
+      "message": "Subject"
+   },
+   "qrSMessage": {
+      "message": "Message"
+   },
+   "qrSNumber": {
+      "message": "Number"
+   },
+   "qrVBday": {
+      "message": "Birthday"
+   },
+   "qrVCity": {
+      "message": "City"
+   },
+   "qrVCountry": {
+      "message": "Country"
+   },
+   "qrVFax": {
+      "message": "FAX"
+   },
+   "qrVLName": {
+      "message": "Last name"
+   },
+   "qrVLocation": {
+      "message": "State/Region/County"
+   },
+   "qrVMobile": {
+      "message": "Mobile phone"
+   },
+   "qrVName": {
+      "message": "Name"
+   },
+   "qrVOrg": {
+      "message": "Organization"
+   },
+   "qrVStreet": {
+      "message": "Street"
+   },
+   "qrVTel": {
+      "message": "Telephone"
+   },
+   "qrVTitle": {
+      "message": "Title/Role"
+   },
+   "qrVZip": {
+      "message": "Zip / Postal code"
+   }
+}
