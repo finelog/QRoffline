@@ -13,7 +13,7 @@ So I decide to write a app myself, Thankfully, The [qrcodejs](https://github.com
 Basically I am using for myself convenience. However, If you like it and have some troubles or suggestions, welcome to create a issue, I will try my best to fix or improve it.
 
 ## How To Use
-If you are using The Chrome Browser, you can go Settings->Extensions.check the Developer mode box on the top right, click the "load unpacked extension" button, choose the QRoffline folder. And it's ok.
+If you are using The Chrome Browser, you can go Settings->Extensions.check the Developer mode box on the top right, click the "load unpacked extension" button, choose the QRoffline folder. And it's all done.
 
 So Easy, Right? \^_\^
 
