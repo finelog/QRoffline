@@ -12,8 +12,14 @@ So I decide to write a app myself, Thankfully, The [qrcodejs](https://github.com
 
 Basically I am using for myself convenience. However, If you like it and have some troubles or suggestions, welcome to create a issue, I will try my best to fix or improve it.
 
-## App Publish
-Since I am in China, **can not** pay $5 to verify my developer account for now. If you are insterested, welcome to publish it to chrome web store for me, it would be a lot help! 
+## How To Use
+If you are using The Chrome Browser, you can go Settings->Extensions.check the Developer mode box on the top right, click the "load unpacked extension" button, choose the QRoffline folder. And it's ok.
+
+So Easy, Right? \^_\^
+
+If you are **NOT** using the Chrome, then you can open the index.html to use the app. However, it's all English and I am not sure it's cross browser supportive.
+
+Oh, By the way, Since I'm in China, have trouble to verify the Chrome Developer Account for now. It's OK to publish the app to Chrome Web Store for me, It would a lot help.
 
 ## License
 MIT License
