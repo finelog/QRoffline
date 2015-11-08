@@ -1,13 +1,13 @@
 {
   "name": "QRoffline",
-  "description": "A Chrome App to generate QR code offline.",
-  "version": "0.1",
+  "description": "__MSG_appname__",
+  "version": "1.0",
   "manifest_version": 2,
   "app": {
     "background": {
       "scripts": ["background.js"]
     }
   },
-  "icons": { "16": "images/16.png", "64": "images/64.png", "128": "images/128.png" }
-  //TODO:add multp languages support
+  "icons": { "16": "images/16.png", "64": "images/64.png", "128": "images/128.png" },
+  "default_locale" : "zh_CN"
 }

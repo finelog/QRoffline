@@ -1,0 +1,62 @@
+{
+   "appname": {
+      "message": "QRoffline - 离线生成二维码"
+   },
+   "genbtn": {
+      "message": "生成二维码"
+   },
+   "Text": {
+      "message": "文字"
+   },
+   "Th4": {
+      "message": "文字/链接"
+   },
+   "Ttext": {
+      "message": "清输入文字或链接"
+   },
+   "VCard": {
+      "message": "联系人"
+   },
+   "Vname": {
+      "message": "名"
+   },
+   "Vlname": {
+      "message": "姓"
+   },
+   "Vcell": {
+      "message": "手机号码"
+   },
+   "Vemail": {
+      "message": "邮箱地址"
+   },
+   "SMS": {
+      "message": "短信"
+   },
+   "Snum": {
+    "message": "手机号码"
+   },
+   "Smsg": {
+      "message": "短信内容"
+   },
+   "Email": {
+      "message": "邮件"
+   },
+   "Eemail": {
+      "message": "发送地址"
+   },
+   "Esub": {
+      "message": "邮件主题"
+   },
+   "Emsg": {
+      "message": "邮件内容"
+   },
+   "Geo": {
+      "message": "经纬度"
+   },
+   "Glati": {
+      "message": "纬度"
+   },
+   "Glongti": {
+      "message": "经度"
+   }
+}

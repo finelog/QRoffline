@@ -1,0 +1,62 @@
+{
+   "appname": {
+      "message": "QRoffline - Generate QR code offline"
+   },
+   "genbtn": {
+      "message": "Generate QR"
+   },
+   "Text": {
+      "message": "Text"
+   },
+   "Th4": {
+      "message": "Text/Link"
+   },
+   "Ttext": {
+      "message": "Input text or link"
+   },
+   "VCard": {
+      "message": "VCard"
+   },
+   "Vname": {
+      "message": "Name"
+   },
+   "Vlname": {
+      "message": "Last Name"
+   },
+   "Vcell": {
+      "message": "Mobile Phone"
+   },
+   "Vemail": {
+      "message": "Email"
+   },
+   "SMS": {
+      "message": "SMS"
+   },
+   "Snum": {
+      "message": "Mobile Number"
+   },
+   "Smsg": {
+      "message": "Message Content"
+   },
+   "Email": {
+      "message": "Email"
+   },
+   "Eemail": {
+      "message": "Email Address"
+   },
+   "Esub": {
+      "message": "Subject"
+   },
+   "Emsg": {
+      "message": "Email Content"
+   },
+   "Geo": {
+      "message": "Geo"
+   },
+   "Glati": {
+      "message": "Geo Latitude"
+   },
+   "Glongti": {
+      "message": "Geo Longitude"
+   }
+}
