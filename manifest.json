@@ -9,5 +9,5 @@
     }
   },
   "icons": { "16": "images/16.png", "64": "images/64.png", "128": "images/128.png" },
-  "default_locale" : "zh_CN"
+  "default_locale" : "en"
 }
