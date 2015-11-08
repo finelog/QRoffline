@@ -6,22 +6,22 @@ window.onload = function() {
     var genemail = document.getElementById("genemail");
     var gengeo   = document.getElementById("gengeo");
 
-    //five qr code
+    //five block to gen qr code
     var qrtext  = new QRCode(document.getElementById("qrtext"),  { width:250, height:250 });
     var qrvcard = new QRCode(document.getElementById("qrvcard"), { width:250, height:250 });
     var qrsms   = new QRCode(document.getElementById("qrsms"),   { width:250, height:250 });
     var qremail = new QRCode(document.getElementById("qremail"), { width:250, height:250 });
     var qrgeo   = new QRCode(document.getElementById("qrgeo"),   { width:250, height:250 });
 
-    //text input ti focus
+    //text input to focus when loaded
     var load2focus = document.getElementById("load2focus");
     window.addEventListener("load", load2focus.focus(), false);
 
-    gentext.addEventListener("click",  function() { genQrCode(gentext,  qrtext,  1) }, false);
+    gentext.addEventListener( "click", function() { genQrCode(gentext,  qrtext,  1) }, false);
     genvcard.addEventListener("click", function() { genQrCode(genvcard, qrvcard, 2) }, false);
-    gensms.addEventListener("click",   function() { genQrCode(gensms,   qrsms,   3) }, false);
+    gensms.addEventListener(  "click", function() { genQrCode(gensms,   qrsms,   3) }, false);
     genemail.addEventListener("click", function() { genQrCode(genemail, qremail, 4) }, false);
-    gengeo.addEventListener("click",   function() { genQrCode(gengeo,   qrgeo,   5) }, false);
+    gengeo.addEventListener(  "click", function() { genQrCode(gengeo,   qrgeo,   5) }, false);
 
     //localization
     var isApp = false;
@@ -53,11 +53,10 @@ window.onload = function() {
 }
 
 Element.prototype.getLocale = function() {
-    var localename = this.attributes["localename"].value;
     if(this.tagName == "INPUT")
-        this.placeholder = chrome.i18n.getMessage(localename);
+        this.placeholder = chrome.i18n.getMessage(this.attributes["localename"].value);
     else
-        this.innerText = chrome.i18n.getMessage(localename);
+        this.innerText   = chrome.i18n.getMessage(this.attributes["localename"].value);
 }
 
 function genQrCode(obj, qrcode, type) {
