@@ -13,17 +13,6 @@ window.onload = function() {
     var qremail = new QRCode(document.getElementById("qremail"), { width:250, height:250 });
     var qrgeo   = new QRCode(document.getElementById("qrgeo"),   { width:250, height:250 });
 
-    //localization
-    var isApp = false;
-    if(location.href.search(/hrome-extension:\/\//i))
-    {
-        isApp = true;
-    }
-    if(isApp)
-    {
-        chrome.i18n.getMessage("messagename");
-    }
-
     //text input ti focus
     var load2focus = document.getElementById("load2focus");
     window.addEventListener("load", load2focus.focus(), false);
@@ -34,6 +23,41 @@ window.onload = function() {
     genemail.addEventListener("click", function() { genQrCode(genemail, qremail, 4) }, false);
     gengeo.addEventListener("click",   function() { genQrCode(gengeo,   qrgeo,   5) }, false);
 
+    //localization
+    var isApp = false;
+    if(location.href.search(/hrome-extension:\/\//i))
+    {
+        isApp = true;
+    }
+    if(isApp)
+    {
+        var i = 0;
+        var anchors = document.getElementsByTagName("a");
+        var h4s     = document.getElementsByTagName("h4");
+        var btns    = document.getElementsByTagName("button");
+        var inputs  = document.getElementsByTagName("input");
+
+        document.title = chrome.i18n.getMessage("appname");
+        for(i=0; i<inputs.length; i++)
+        {
+            inputs[i].getLocale();
+            if(anchors[i])
+                anchors[i].getLocale();
+            if(h4s[i])
+                h4s[i].getLocale();
+            if(btns[i])
+                btns[i].getLocale();
+        }
+    }
+
+}
+
+Element.prototype.getLocale = function() {
+    var localename = this.attributes["localename"].value;
+    if(this.tagName == "INPUT")
+        this.placeholder = chrome.i18n.getMessage(localename);
+    else
+        this.innerText = chrome.i18n.getMessage(localename);
 }
 
 function genQrCode(obj, qrcode, type) {

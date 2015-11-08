@@ -1,77 +1,62 @@
 {
-   "appdescription": {
-      "message": "FastQR allows you to create and save QR codes in PNG format without needing an internet connection."
-   },
    "appname": {
-      "message": "FastQR - Generate QR Code offline"
+      "message": "QRoffline - 离线生成二维码"
    },
-   "generateBtn": {
-      "message": "Generate"
+   "genbtn": {
+      "message": "生成二维码"
    },
-   "generateemail": {
-      "message": "Generate E-mail QR Code"
+   "Text": {
+      "message": "文字"
    },
-   "generategeo": {
-      "message": "Generate GEO QR Code"
+   "Th4": {
+      "message": "文字/链接"
    },
-   "generatelink": {
-      "message": "Generate Text/Link QR Code"
+   "Ttext": {
+      "message": "清输入文字或链接"
    },
-   "generatesms": {
-      "message": "Generate SMS QR Code"
+   "VCard": {
+      "message": "联系人"
    },
-   "generatevcard": {
-      "message": "Generate vCard QR Code"
+   "Vname": {
+      "message": "名"
    },
-   "qrEMessage": {
-      "message": "Message"
+   "Vlname": {
+      "message": "姓"
    },
-   "qrESubject": {
-      "message": "Subject"
+   "Vcell": {
+      "message": "手机号码"
    },
-   "qrSMessage": {
-      "message": "Message"
+   "Vemail": {
+      "message": "邮箱地址"
    },
-   "qrSNumber": {
-      "message": "Number"
+   "SMS": {
+      "message": "短信"
    },
-   "qrVBday": {
-      "message": "Birthday"
+   "Snum": {
+    "message": "手机号码"
    },
-   "qrVCity": {
-      "message": "City"
+   "Smsg": {
+      "message": "短信内容"
    },
-   "qrVCountry": {
-      "message": "Country"
+   "Email": {
+      "message": "邮件"
    },
-   "qrVFax": {
-      "message": "FAX"
+   "Eemail": {
+      "message": "发送地址"
    },
-   "qrVLName": {
-      "message": "Last name"
+   "Esub": {
+      "message": "邮件主题"
    },
-   "qrVLocation": {
-      "message": "State/Region/County"
+   "Emsg": {
+      "message": "邮件内容"
    },
-   "qrVMobile": {
-      "message": "Mobile phone"
+   "Geo": {
+      "message": "经纬度"
    },
-   "qrVName": {
-      "message": "Name"
+   "Glati": {
+      "message": "纬度"
    },
-   "qrVOrg": {
-      "message": "Organization"
-   },
-   "qrVStreet": {
-      "message": "Street"
-   },
-   "qrVTel": {
-      "message": "Telephone"
-   },
-   "qrVTitle": {
-      "message": "Title/Role"
-   },
-   "qrVZip": {
-      "message": "Zip / Postal code"
+   "Glongti": {
+      "message": "经度"
    }
 }

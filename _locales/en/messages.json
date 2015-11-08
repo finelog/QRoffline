@@ -6,54 +6,57 @@
       "message": "Generate QR"
    },
    "Text": {
-      "message": ""
+      "message": "Text"
    },
-   "": {
-      "message": ""
+   "Th4": {
+      "message": "Text/Link"
+   },
+   "Ttext": {
+      "message": "Input text or link"
    },
    "VCard": {
-      "message": ""
+      "message": "VCard"
    },
-   "": {
-      "message": ""
+   "Vname": {
+      "message": "Name"
    },
-   "": {
-      "message": ""
+   "Vlname": {
+      "message": "Last Name"
    },
-   "": {
-      "message": ""
+   "Vcell": {
+      "message": "Mobile Phone"
    },
-   "": {
-      "message": ""
+   "Vemail": {
+      "message": "Email"
    },
    "SMS": {
-      "message": ""
+      "message": "SMS"
    },
-   "": {
-      "message": ""
+   "Snum": {
+      "message": "Mobile Number"
    },
-   "": {
-      "message": ""
+   "Smsg": {
+      "message": "Message Content"
    },
    "Email": {
-      "message": ""
+      "message": "Email"
    },
-   "": {
-      "message": ""
+   "Eemail": {
+      "message": "Email Address"
    },
-   "": {
-      "message": ""
+   "Esub": {
+      "message": "Subject"
    },
-   "": {
-      "message": ""
+   "Emsg": {
+      "message": "Email Content"
    },
    "Geo": {
-      "message": ""
+      "message": "Geo"
    },
-   "": {
-      "message": ""
+   "Glati": {
+      "message": "Geo Latitude"
    },
-   "": {
-      "message": ""
-   },
+   "Glongti": {
+      "message": "Geo Longitude"
+   }
 }
