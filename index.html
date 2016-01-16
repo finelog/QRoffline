@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>QRoffline - Generate QR code offline</title>
 </head>
-
 <body>
+    <form action="index.html" method="get" target="hidden">
     <div class="tabbable">
         <ul class="nav nav-tabs">
             <li class="active"><a href="#tab1" localename="Text" data-toggle="tab">Text</a></li>
@@ -76,5 +76,7 @@
             </div>
         </div>
     </div>
+    </form>
+    <iframe name="hidden" style="display:none;"></iframe>
 </body>
 </html>
